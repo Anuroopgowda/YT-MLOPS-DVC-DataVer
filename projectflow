@@ -10,3 +10,15 @@
 10. "git add data.dvc .gitignore"
 11. now "dvc commit" and then "dvc push" we will get 2 files (with id and other with data)
 12. after changes always do commit and push
+
+=========================
+ROLLBACK
+1.use "git log --oneline"(to get the id of the change)
+2.used "git checkout <id>"(get the id form the above command)
+3.if not happening use "git checkout --<projectname>"
+4.then use "dvc status" and do "dvc pull"
+===============================
+AGAIN BACK FROM ROLLBACK
+1.use "git checkout main"
+2.if not happening use "git checkout --<projectname>"
+3.then use "dvc status" and do "dvc pull"
