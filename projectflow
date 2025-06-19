@@ -1,2 +1,10 @@
 1.setup git clone repo
 2.add python file
+3.push the code to github before initializing DVC
+4.pip install dvc
+5.initialize the dvc for the project "dvc init"
+6.making a folder "S3" for storing the data
+7.connect to the DVC and S3 "dvc remote add -d myremote S3"
+8.(imp) "dvc add data/" -saying dvc to take care of this folder data if any changes are done
+9.it will give a error and also shows the solution (because of git)
+10. "git add data.dvc .gitignore"
