@@ -8,3 +8,4 @@
 8.(imp) "dvc add data/" -saying dvc to take care of this folder data if any changes are done
 9.it will give a error and also shows the solution (because of git)
 10. "git add data.dvc .gitignore"
+11. now "dvc commit" and then "dvc push"
